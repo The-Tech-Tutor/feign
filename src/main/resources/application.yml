@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /API
+feign:
+  hystrix:
+    enabled: false
+  okhttp:
+    enabled: true
+sample:
+  client:
+    url: http://localhost:9090/
